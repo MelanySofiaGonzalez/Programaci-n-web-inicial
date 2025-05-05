@@ -1,0 +1,31 @@
+/*a esto se le llama normalizacion(normalize.css)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+
+    /*background-color: aqua;*/
+    /*margin-top: 40px;
+    margin-left: 24px;*/
+
+    /*margin vertical y horizontal*/
+    margin: 24px 70px;
+
+    /*margin top horizontal bottom
+    margin: 24px 70px 180px;*/
+
+    /*margin: top right bottom left
+    margin: 24px 70px 180px 40px;*/
+
+    border-bottom: 1px solid #c9ccd1;
+    border-right: 1px solid #c9ccd1;
+    /*padding-left: 24px;
+    padding-top: 40px;*/
+    padding: 48px 16px;
+    height: 200px;
+    width: 400px;
+}
+

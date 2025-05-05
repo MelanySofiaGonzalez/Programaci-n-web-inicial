@@ -1,0 +1,12 @@
+li {  
+    list-style-type: none;
+}
+.ingredient-item{
+    list-style-type: disc;
+}
+.ingredient-item--circulito{
+    list-style: circle;
+}
+.step-by-step-list li{
+    list-style-type: georgian;
+} 

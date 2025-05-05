@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./pages/home/home.html">Ir a home</a>
+    <form>
+        <lavel for= "nombre">
+            Ingresa tu nombre
+        </lavel>
+        <input id="nombre" type="text" placeholder="Natalia Natalia"/>
+
+        <br/>
+
+        <label for="edad">Ingresa tu edad 
+        </label>
+        <input id="edad" name="edad" type="number" min="1" max="95" placeholder="28">
+
+        <br>
+
+        <label for="password">
+            Ingresa una clave secreta
+        </label>
+        <input type="password" name="password" type="password" />
+        
+        <br>
+
+        <label for="volumen">
+            Ingresa tu volumen preferido:
+        </label>
+        <input type="range" id= "volumen" name="volumen" min="1" max="100" value="50">
+    </form>
+        <label for="birthday_date"> fecha de cumpleaños</label>
+        <input id="birthday_date" type="date" name="date">
+
+        <br> 
+
+        <span>¿Que lenguajes conoces?</span>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="HTML" name="lenguaje conocido">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="CSS" name="lenguaje conocido">
+        <label for="JS">JS</label>
+        <input type="checkbox" id="JS" name="lenguaje conocido">
+
+        <br>
+
+        <span>Cual es tu lenjuaje favorito?</span>
+        <label for="HTML">HTML</label>
+        <input type="radio" id="favorite_HTML" name="lenguaje_favorito">
+        <label for="CSS">CSS</label>
+        <input type="radio" id="favorite_CSS" name="lenguaje_favorito">
+        <label for="JS">JS</label>
+        <input type="radio" id="favorite_JS" name="lenguaje_favorito">
+
+        <button type="submit">Enviar</button>
+</body>
+</html>
